@@ -1,0 +1,94 @@
+{
+  // Theme and icons
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark"
+  },
+  "ui_font_size": 18,
+  "buffer_font_size": 14,
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+
+  // Color scheme - unified background
+  "experimental.theme_overrides": {
+    "background": "#1f2430",
+    "editor.background": "#1f2430",
+    "editor.gutter.background": "#1f2430",
+    "terminal.background": "#1f2430",
+    "toolbar.background": "#1f2430",
+    "tab_bar.background": "#1f2430",
+    "panel.background": "#1f2430",
+    "elevated_surface.background": "#1f2430",
+    "surface.background": "#1f2430",
+    "status_bar.background": "#1f2430",
+    "title_bar.background": "#1f2430"
+  },
+
+  "icon_theme": "Material Icon Theme",
+
+  // Cursor
+  "cursor_blink": false,
+  "cursor_shape": "block",
+
+  // Indentation and tabs
+  "tab_size": 4,
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 1,
+    "coloring": "indent_aware",
+    "background_coloring": "disabled"
+  },
+
+  // Code display
+  "show_whitespaces": "none",
+  "show_edit_predictions": true,
+
+  // Scrollbar
+  "scrollbar": {
+    "show": "never"
+  },
+
+  // Interface
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
+  "tab_bar": {
+    "show": false
+  },
+
+  // Git
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    },
+    "git_gutter": "hide"
+  },
+
+  // Terminal
+  "terminal": {
+    "font_size": 14,
+    "default_width": 600,
+    "font_family": "JetBrainsMono Nerd Font Mono"
+  },
+
+  // Language settings
+  "languages": {
+    "JavaScript": {
+      "tab_size": 2
+    },
+    "TypeScript": {
+      "tab_size": 2
+    },
+    "JSON": {
+      "tab_size": 2
+    },
+    "TSX": {
+      "tab_size": 2
+    },
+    "Python": {
+      "tab_size": 4
+    }
+  }
+}
