@@ -1,0 +1,113 @@
+{
+    // Theme
+    "theme": {
+        "mode": "dark",
+        "light": "Ayu Light",
+        "dark": "Ayu Dark",
+    },
+    "icon_theme": "Material Icon Theme",
+
+    // Theme color overrides
+    "experimental.theme_overrides": {
+        "background": "#1f2430",
+        "editor.background": "#1f2430",
+        "editor.gutter.background": "#1f2430",
+        "terminal.background": "#1f2430",
+        "toolbar.background": "#1f2430",
+        "tab_bar.background": "#1f2430",
+        "panel.background": "#1f2430",
+        "elevated_surface.background": "#1f2430",
+        "surface.background": "#1f2430",
+        "status_bar.background": "#1f2430",
+        "title_bar.background": "#1f2430",
+        "border.variant": "#1f2430",
+        "border": "#1f2430",
+    },
+
+    // Fonts and sizes
+    "ui_font_size": 18,
+    "buffer_font_size": 14,
+    "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+
+    // Cursor
+    "cursor_blink": false,
+    "cursor_shape": "block",
+
+    // Editor
+    "tab_size": 4,
+    "show_whitespaces": "none",
+    "show_edit_predictions": true,
+
+    // Indent guides
+    "indent_guides": {
+        "enabled": true,
+        "line_width": 1,
+        "active_line_width": 1,
+        "coloring": "indent_aware",
+        "background_coloring": "disabled",
+    },
+
+    // Scrollbar
+    "scrollbar": {
+        "show": "never",
+    },
+
+    // Title bar
+    "title_bar": {
+        "show_onboarding_banner": false,
+        "show_project_items": false,
+        "show_branch_name": false,
+        "show_user_menu": false,
+    },
+
+    // Status bar
+    "status_bar": {
+        // "experimental.show": false,
+    },
+
+    // Tabs
+    "tab_bar": {
+        "show": false,
+    },
+
+    // Toolbar
+    "toolbar": {
+        "breadcrumbs": true,
+        "quick_actions": false,
+    },
+
+    // Side panels
+    "project_panel": {
+        "dock": "left",
+    },
+    "git_panel": {
+        "dock": "left",
+    },
+    "outline_panel": {
+        "dock": "left",
+    },
+
+    // Git
+    "git": {
+        "inline_blame": {
+            "enabled": false,
+        },
+        "git_gutter": "hide",
+    },
+
+    // Terminal
+    "terminal": {
+        "font_size": 14,
+        "default_width": 600,
+        "font_family": "JetBrainsMono Nerd Font Mono",
+    },
+
+    // Language settings
+    "languages": {
+        "JavaScript": { "tab_size": 2 },
+        "TypeScript": { "tab_size": 2 },
+        "TSX": { "tab_size": 2 },
+        "JSON": { "tab_size": 2 },
+        "Python": { "tab_size": 4 },
+    },
+}
